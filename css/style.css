@@ -319,7 +319,7 @@ footer button {
     position: relative;
     display: inline-block;
     float: right;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -339,7 +339,7 @@ footer button {
     background-color: #ffffff;
     font-size: 12px;
     line-height: 26px;
-    color: #C1C1C1;
+    color: #000000;
     font-weight: normal;
     font-weight: 100;
     margin-right: 25px;
