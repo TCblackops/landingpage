@@ -1,0 +1,189 @@
+@media (max-width: 400px) { /*iphone 5, 6 and 7 portrait*/
+
+  body{
+    padding-top:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  header{
+    padding-left: 0;
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  header img{
+    width: 180px;
+    height: 47.42px;
+  }
+  .logo{
+    padding-left: 5px;
+    float: left;
+  }
+
+  .navigation__icon{
+    display: none;
+  }
+
+  header ul li{
+    margin-right: 5px;
+    padding-right: 0px;
+  }
+
+  header ul {
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: right;
+  }
+  .header__navigation{
+    display: none;
+  }
+
+  .mobile__navigation {
+    display: block;
+    margin-top: 10px;
+    float: right;
+  }
+
+  .main__title{
+    margin-top: 130px;
+    text-align: left;
+  }
+  .main__subtitle {
+    text-align: left;
+  }
+  .main__input{
+    text-align: left;
+  }
+
+  .main__input input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .main__button {
+    margin-left: 0px;
+  }
+
+    .feature__text p
+  {
+     font-size: 16px;
+     line-height: 20px;
+      text-align: justify;
+      max-width: 700px;
+      height: auto;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 20px;
+
+  }
+  .flex__grid {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .users__review{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 80px;
+  }
+   footer{
+     margin-top: 50px;
+   }
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 736px) {
+  /* comes into effect for screens between 400px and 1024 pixels (inclusive) */
+
+  header {
+    padding-left: 20px;
+  }
+  .logo {
+    padding-left : 0px ;
+    float: left;
+  }
+
+  .header__navigation {
+     float: none;
+     padding-right: 10px;
+     padding-left: 10px;
+     float: right;
+  }
+  header ul li {
+    margin-right: 10px;
+  }
+  .main__title {
+    margin-top: 130px;
+  }
+
+  .flex__grid {
+    padding-right: 10px;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .owl-carousel p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+
+}
+
+@media screen and (min-width: 737px) and (max-width: 1024px) {
+  header {
+    padding-left: 20px;
+  }
+  .logo {
+    padding-left : 0px ;
+    float: left;
+  }
+
+  .header__navigation {
+     float: none;
+     padding-right: 10px;
+     padding-left: 10px;
+     float: right;
+  }
+  header ul li {
+    margin-right: 10px;
+  }
+  .main__title {
+    margin-top: 130px;
+  }
+
+  .flex__grid {
+    padding-right: 10px;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .users__review {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .owl-carousel p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+
+}
+}

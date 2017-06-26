@@ -11,7 +11,7 @@ $(document).ready(function(){
             nav: false,
             slideBy: 1 // <!-- HERE
           },
-          640: {
+          670: {
             items: 3,
             navigation: false,
             nav: false,

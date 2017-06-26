@@ -3,15 +3,17 @@ body {
   padding-top: 50px;
 }
 
-input, button, submit { border:none; }
+textarea:focus, input:focus{
+    outline: none;
+}
 
-.logo{
+.logo {
   float: left;
   width: 50%;
   padding-left: 70px;
 }
 
-header{
+header {
   width: 90%;
   padding-left: 40px;
 }
@@ -21,7 +23,7 @@ header ul {
   margin-right: 20px;
 }
 
-header ul li{
+header ul li {
   display: inline-block;
   font-size: 12px;
   line-height: 26px;
@@ -31,12 +33,12 @@ header ul li{
   font-weight: 100;
 }
 
-.header__navigation{
+.header__navigation {
   float: right;
   padding-right: 50px;
 }
 
-.dropdown{
+.mobile__navigation {
   display: none;
 }
 
@@ -55,7 +57,7 @@ header ul li{
   line-height: 32px;
 }
 
-.main__subtitle{
+.main__subtitle {
   text-align: center;
   margin-top: 0;
   padding-top: 5px;
@@ -63,21 +65,24 @@ header ul li{
   font-weight: 300;
 }
 
-.main__input{
+.main__input {
   text-align: center;
   margin: 0 auto;
 }
 
-.main__input input{
+.main__input input {
   border: 2px solid #c6ccd1;
   width: 350px;
   margin-top: 20px;
   margin-bottom: 20px;
   max-width: 95%;
   height: 44px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.main__button{
+.main__button {
   height: 44px;
   border: none;
   background-color: red;
@@ -129,7 +134,7 @@ input:-moz-placeholder { /* Firefox 18- */
   box-shadow: none;
 }
 
-.feature__text{
+.feature__text {
   width:100%;
   max-width: 600px;
   margin: 0px auto;
@@ -139,8 +144,7 @@ input:-moz-placeholder { /* Firefox 18- */
   margin-top: 30px;
 }
 
-.feature__text p
-{
+.feature__text p {
   text-align: center;
   width: 80%;
   max-width: 700px;
@@ -214,6 +218,8 @@ input:-moz-placeholder { /* Firefox 18- */
   clear: both;
 }
 
+
+
 .profile__photo{
   background:top no-repeat;
     border-radius:50%;
@@ -231,6 +237,21 @@ input:-moz-placeholder { /* Firefox 18- */
   font-weight: 200;
 }
 
+.users__review a {
+  color: #73838E;
+  text-decoration: none;
+}
+
+.users__review a:hover {
+  color: #73838E;
+}
+
+.users__review a:active {
+  color: #73838E;
+}
+.users__review a:visited {
+  color: #73838E;
+}
 .owl-carousel .cite {
   font-size: 15px;
   line-height: 21px;
@@ -261,140 +282,11 @@ footer button {
   margin: 0 auto;
 }
 
-@media (max-width: 400px) {
-
-  body{
-    padding-top:20px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  header{
-    padding-left: 0;
-    width: 100%;
-    margin-right: 30px;
-  }
-
-  header img{
-    width: 180px;
-    height: 47.42px;
-  }
-  .logo{
-    padding-left: 5px;
-    float: left;
-  }
-
-  .navigation__icon{
-    display: none;
-  }
-
-  header ul li{
-    margin-right: 5px;
-    padding-right: 0px;
-  }
-
-  header ul {
-    margin-right: 0px;
-    padding-right: 0px;
-    text-align: right;
-  }
-  .header__navigation{
-    display: none;
-  }
-
-  /* Dropdown Button */
-.dropbtn {
-    border: none;
-    width: 30px;
-    height: 30px;
-    border: none;
-
+.twitter__icon {
+ text-align: center;
 }
 
-.dropdown button {
-  background-color: white;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #ffffff;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    float: right;
-    margin-right: 10px;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-
-    text-decoration: none;
-    display: block;
-    background-color: #ffffff;
-    font-size: 12px;
-    line-height: 26px;
-    color: #000000;
-    font-weight: normal;
-    font-weight: 100;
-    margin-right: 25px;
-    text-align: left;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: ;}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-  .main__title{
-    margin-top: 100px;
-    text-align: left;
-  }
-  .main__subtitle {
-    text-align: left;
-  }
-  .main__input{
-    text-align: left;
-  }
-
-  .main__input input {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .main__button {
-    margin-left: 0px;
-  }
-
-    .feature__text p
-  {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .flex__grid {
-    display: block;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 40px;
-  }
-
-  .users__review{
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 80px;
-  }
-   footer{
-     margin-top: 100px;
-   }
+footer img {
+  width: 20px;
+  height: 20px;
 }
