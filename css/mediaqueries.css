@@ -27,6 +27,7 @@
   header ul li{
     margin-right: 5px;
     padding-right: 0px;
+    font-weight: normal;
   }
 
   header ul {
@@ -40,8 +41,9 @@
 
   .mobile__navigation {
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
     float: right;
+    font-weight: bold;
   }
 
   .main__title{
@@ -184,6 +186,4 @@
   footer {
     margin-top: 150px;
   }
-
-}
 }
