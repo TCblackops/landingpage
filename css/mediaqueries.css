@@ -27,8 +27,11 @@
   header ul li{
     margin-right: 5px;
     padding-right: 0px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #C1C1C1;
     font-weight: normal;
-  }
+    }
 
   header ul {
     margin-right: 0px;
@@ -47,7 +50,7 @@
   }
 
   .main__title{
-    margin-top: 130px;
+    margin-top: 150px;
     text-align: left;
   }
   .main__subtitle {
@@ -121,6 +124,10 @@
   }
   header ul li {
     margin-right: 10px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #C1C1C1;
+    font-weight: normal;
   }
   .main__title {
     margin-top: 130px;
@@ -161,9 +168,13 @@
   }
   header ul li {
     margin-right: 10px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #C1C1C1;
+    font-weight: normal;
   }
   .main__title {
-    margin-top: 130px;
+    margin-top: 150px;
   }
 
   .flex__grid {
