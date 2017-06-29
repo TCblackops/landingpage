@@ -26,11 +26,11 @@
 
   header ul li{
     margin-right: 8px;
-    padding-right: 0px;
+    padding-right: 10px;
     font-size: 11px;
     line-height: 26px;
     color: #C1C1C1;
-    font-weight: normal;
+    font-weight: 200;
     }
 
   header ul {
