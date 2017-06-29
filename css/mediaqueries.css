@@ -72,6 +72,8 @@
 
   .main__button {
     margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
     .feature__text p
@@ -141,6 +143,11 @@
     margin-top: 130px;
   }
 
+  .main__button {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .flex__grid {
     padding-right: 10px;
     display: block;
@@ -148,9 +155,11 @@
     margin-left: 10px;
   }
 
-  .owl-carousel p {
+  .owl-carousel p{
     width: auto;
     text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   footer {
